@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch } from "react-router-dom";
 
-import Main from "./containers/Main";
+import Home from "./containers/Home";
 import ThemeExample from "./containers/ThemeExample";
 import LocalizationExample from "./containers/LocalizationExample";
 import GitHub from "./containers/GitHub";
@@ -12,7 +12,7 @@ import SidebarLayout from "./layouts/SidebarLayout";
 const App = ({ location }) => {
   return (
     <Switch>
-      <AppRoute exact path="/" component={Main} layout={MainLayout} />
+      <AppRoute exact path="/" component={Home} layout={MainLayout} />
       <AppRoute path="/theme" component={ThemeExample} layout={SidebarLayout} />
       <AppRoute path="/github" component={GitHub} layout={SidebarLayout} />
       <AppRoute

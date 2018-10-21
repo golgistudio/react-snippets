@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 
 import Greeting from "../components/Greeting";
 
-class Main extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -26,4 +26,4 @@ function mapStateToProps(state) {
   return {};
 }
 
-export default withRouter(connect(mapStateToProps)(Main));
+export default withRouter(connect(mapStateToProps)(Home));
