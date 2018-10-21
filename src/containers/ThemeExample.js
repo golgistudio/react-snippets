@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { NavLink, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import Themes, { selectTheme, registerAllThemes } from "../themes/Themes";
 import Button from "../components/Button";
 

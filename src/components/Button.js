@@ -4,10 +4,6 @@ import Radium from "radium";
 import ThemeWrapper from "../themes/ThemeWrapper";
 
 class Button extends PureComponent {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const {
       name,

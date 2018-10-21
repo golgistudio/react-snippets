@@ -22,8 +22,7 @@
     "redux-actions": "latest",
     "redux-saga": "latest",
     "shortid": "2.2.13",
-    "tree-changes": "latest",
-    "uuid": "3.3.2"
+    "tree-changes": "latest"
   },
   "devDependencies": {},
   "scripts": {

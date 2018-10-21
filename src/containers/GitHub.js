@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import cx from "classnames";
 import treeChanges from "tree-changes";
 
 import ReactTable from "react-table";
@@ -55,11 +54,12 @@ class GitHubComponent extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    const { dispatch } = this.props;
+    // const { dispatch } = this.props;
     const { changedTo } = treeChanges(this.props, nextProps);
 
     if (changedTo("github.repos.status", STATUS.ERROR)) {
-      dispatch(showAlert(nextProps.github.repos.message, { type: "error" }));
+      console.log(nextProps.github.repos.message)
+      // dispatch(showAlert(nextProps.github.repos.message, { type: "error" }));
     }
   }
 

@@ -1,6 +1,5 @@
 import React from "react";
-import { connect } from "react-redux";
-import { Route, Switch } from "react-router-dom";
+import { Switch } from "react-router-dom";
 
 import Main from "./containers/Main";
 import ThemeExample from "./containers/ThemeExample";

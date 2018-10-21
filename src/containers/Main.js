@@ -5,10 +5,6 @@ import { withRouter } from "react-router-dom";
 import Greeting from "../components/Greeting";
 
 class Main extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
