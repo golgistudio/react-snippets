@@ -46,6 +46,14 @@ class MainLayout extends Component {
             >
               <NavLink to="/theme">Theme</NavLink>
             </div>
+            <div
+              style={{
+                float: "right",
+                marginRight: "10px"
+              }}
+            >
+              <NavLink to="/github">GitHub</NavLink>
+            </div>
           </div>
         </div>
         <div {...others}>{children}</div>

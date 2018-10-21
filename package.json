@@ -1,11 +1,13 @@
 {
   "name": "react-snippets",
   "version": "1.0.0",
-  "description": "Example snippets..\n\n* Themes\n* Localization using react-intl\n* React Router\n* Layouts\n* redux-saga (tbd)",
+  "description": "Example snippets..\n\n-  Themes\n|  Localization using react-intl\n|  React Router\n|  Layouts\n|  redux-saga",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "immutability-helper": "2.8.1",
     "lodash": "4.17.11",
+    "prop-types": "latest",
     "radium": "0.25.0",
     "react": "16.4.2",
     "react-dom": "16.4.2",
@@ -14,9 +16,14 @@
     "react-redux": "5.0.7",
     "react-router-dom": "4.3.1",
     "react-scripts": "1.1.4",
+    "react-table": "latest",
     "react-with-direction": "1.3.0",
     "redux": "4.0.0",
-    "shortid": "2.2.13"
+    "redux-actions": "latest",
+    "redux-saga": "latest",
+    "shortid": "2.2.13",
+    "tree-changes": "latest",
+    "uuid": "3.3.2"
   },
   "devDependencies": {},
   "scripts": {
