@@ -35,7 +35,6 @@ class Localization extends PureComponent {
 }
 
 function mapStateToProps(state) {
-  console.log(state);
   return {};
 }
 

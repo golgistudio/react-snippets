@@ -153,7 +153,6 @@ GitHubComponent.propTypes = {
 
 /* istanbul ignore next */
 function mapStateToProps(state) {
-  console.log(state);
   return { github: state.github };
 }
 

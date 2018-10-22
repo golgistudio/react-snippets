@@ -9,7 +9,7 @@ class MainLayout extends Component {
   }
 
   render() {
-    const { children, ...others } = this.props;
+    const { children, staticContext, ...others } = this.props;
 
     return (
       <div>
@@ -52,6 +52,14 @@ class MainLayout extends Component {
               }}
             >
               <NavLink to="/github">GitHub</NavLink>
+            </div>
+            <div
+              style={{
+                float: "right",
+                marginRight: "10px"
+              }}
+            >
+              <NavLink to="/fizzbuzz">Fizz Buzz</NavLink>
             </div>
           </div>
         </div>

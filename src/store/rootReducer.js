@@ -6,8 +6,6 @@ import github from "../state/github";
 
 export const initialState = {};
 
-console.log(github);
-
 const rootReducer = combineReducers({
   intl: intlReducer,
   locales: localesReducer,
